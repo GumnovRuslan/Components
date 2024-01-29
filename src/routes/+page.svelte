@@ -1,6 +1,7 @@
 <script>
 	import ReadMore from '../lib/ReadMore.svelte';
 	import Burger from '../lib/Burger.svelte';
+	import MaskNumWheel from '../lib/MaskNumWheel.svelte';
 
 	let cards = [
 		{ id: '1', text: 'this is card 1' },
@@ -8,10 +9,14 @@
 	];
 </script>
 
+<Burger />
 <div class="wrapper">
 	{#each cards as card}
 		<ReadMore id={'card-info' + card.id} />
 	{/each}
+</div>
+<div class="form">
+	<MaskNumWheel />
 </div>
 
 <style>
