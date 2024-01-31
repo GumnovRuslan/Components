@@ -5,6 +5,7 @@
 	import ClosePopup from '../lib/closePopup.svelte';
 	import Slider from '../lib/slider.svelte';
 	import Accordion from '../lib/Accordion.svelte';
+	import Prompt from '../lib/Prompt.svelte';
 
 	let cards = [
 		{ id: '1', text: 'this is card 1' },
@@ -24,7 +25,8 @@
 
 <!-- <ClosePopup /> -->
 <!-- <Slider /> -->
-<Accordion />
+<!-- <Accordion /> -->
+<Prompt />
 
 <style>
 	.wrapper {
