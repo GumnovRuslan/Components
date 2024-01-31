@@ -4,6 +4,7 @@
 	import MaskNumWheel from '../lib/MaskNumWheel.svelte';
 	import ClosePopup from '../lib/closePopup.svelte';
 	import Slider from '../lib/slider.svelte';
+	import Accordion from '../lib/Accordion.svelte';
 
 	let cards = [
 		{ id: '1', text: 'this is card 1' },
@@ -11,17 +12,19 @@
 	];
 </script>
 
-<Burger />
-<div class="wrapper">
+<!-- <Burger /> -->
+<!-- <div class="wrapper">
 	{#each cards as card}
 		<ReadMore id={'card-info' + card.id} />
 	{/each}
-</div>
-<div class="form">
+</div> -->
+<!-- <div class="form">
 	<MaskNumWheel />
-</div>
-<ClosePopup />
-<Slider />
+</div> -->
+
+<!-- <ClosePopup /> -->
+<!-- <Slider /> -->
+<Accordion />
 
 <style>
 	.wrapper {
