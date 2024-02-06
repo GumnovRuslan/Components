@@ -89,7 +89,7 @@
 	.form__input-star {
 		display: none;
 	}
-	.form__input:required ~ .form__label > .star {
+	.form__input:required ~ .form__label > .form__input-star {
 		display: block;
 		color: #45c543;
 	}

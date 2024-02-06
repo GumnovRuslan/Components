@@ -7,6 +7,7 @@
 	import Accordion from '../lib/Accordion.svelte';
 	import Prompt from '../lib/Prompt.svelte';
 	import AnimatedPlaceholder from '../lib/AnimatedPlaceholder.svelte';
+	import ShowPassword from '../lib/showPassword.svelte';
 
 	let cards = [
 		{ id: '1', text: 'this is card 1' },
@@ -29,6 +30,7 @@
 <!-- <Accordion /> -->
 <!-- <Prompt /> -->
 <AnimatedPlaceholder />
+<ShowPassword />
 
 <style>
 	.wrapper {
