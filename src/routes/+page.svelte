@@ -8,6 +8,7 @@
 	import Prompt from '../lib/Prompt.svelte';
 	import AnimatedPlaceholder from '../lib/AnimatedPlaceholder.svelte';
 	import ShowPassword from '../lib/showPassword.svelte';
+	import AnimBtn from '../lib/AnimBtn.svelte';
 
 	let cards = [
 		{ id: '1', text: 'this is card 1' },
@@ -29,8 +30,9 @@
 <!-- <Slider /> -->
 <!-- <Accordion /> -->
 <!-- <Prompt /> -->
-<AnimatedPlaceholder />
-<ShowPassword />
+<!-- <AnimatedPlaceholder /> -->
+<!-- <ShowPassword /> -->
+<AnimBtn />
 
 <style>
 	.wrapper {
