@@ -9,6 +9,7 @@
 	import AnimatedPlaceholder from '../lib/AnimatedPlaceholder.svelte';
 	import ShowPassword from '../lib/showPassword.svelte';
 	import AnimBtn from '../lib/AnimBtn.svelte';
+	import RotateSlider from '../lib/RotateSlider.svelte';
 
 	let cards = [
 		{ id: '1', text: 'this is card 1' },
@@ -32,7 +33,8 @@
 <!-- <Prompt /> -->
 <!-- <AnimatedPlaceholder /> -->
 <!-- <ShowPassword /> -->
-<AnimBtn />
+<!-- <AnimBtn /> -->
+<RotateSlider />
 
 <style>
 	.wrapper {
